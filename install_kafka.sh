@@ -30,7 +30,6 @@ mkdir /var/log/zookeeper
 chown kafka:kafka /var/log/zookeeper
 chown -R kafka:kafka /opt/kafka/
 
-
 sed -E -i 's/(dataDir=).*/\1\/var\/lib\/zookeeper/' /opt/kafka/config/zookeeper.properties
 sed -E -i 's/(log.dirs=).*/\1\/tmp\/lib\/kafka\/kafka-logs/' /opt/kafka/config/server.properties
 
