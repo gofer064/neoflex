@@ -3,7 +3,7 @@
 # Script to uninstall Kafka+Zookeeper on Linux
 # Tested on Ubuntu 22.04, 24.04
 # Developed by Alexey Beloglazov in 2024
-#https://github.com/gofer064/neoflex/blob/main/uninstall_kafka.sh
+# https://github.com/gofer064/neoflex/blob/main/uninstall_kafka.sh
 #--------------------------------------------------------------------
 
 systemctl stop zookeeper
