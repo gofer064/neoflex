@@ -1,7 +1,7 @@
 #!/bin/bash
 #--------------------------------------------------------------------
 # Script to Install Kafka+Zookeeper on Linux
-# Tested on Ubuntu 22.04, 24.04
+# Tested on Ubuntu 22.04, 24.12
 # Developed by Alexey Beloglazov in 2024
 # https://github.com/gofer064/neoflex/blob/main/install_kafka.sh
 #--------------------------------------------------------------------
